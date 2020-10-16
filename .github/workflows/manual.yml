@@ -11,6 +11,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.0.0
         with:
           heroku_api_key: ${{secrets.HEROKU_API}}
-          heroku_app_name: "django-docker"
+          heroku_app_name: "django-docker2"
           heroku_email: "tuanmanh@gmail.com"
           usedocker: true
